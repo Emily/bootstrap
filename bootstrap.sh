@@ -138,4 +138,4 @@ else
   echoGreen "dotfiles already cloned"
 fi
 
-gitClone mbadolato/iTerm2-Color-Schemes
+gitClone "mbadolato/iTerm2-Color-Schemes"
