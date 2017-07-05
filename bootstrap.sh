@@ -100,8 +100,15 @@ brew_install tmux
 brew_install vim
 brew_install zsh
 brew_install reattach-to-user-namespace
+brew_install mysql
+brew_install libxml2
+brew_install tree
+brew_install pkg-config
 
 brew_tap burntsushi/ripgrep
+brew_tap homebrew/services
+
+brew_install burntsushi/ripgrep/ripgrep-bin
 
 if [ -d ~/.rubies/ruby-2.4.1 ]
 then
