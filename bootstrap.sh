@@ -104,6 +104,8 @@ brew_install mysql
 brew_install libxml2
 brew_install tree
 brew_install pkg-config
+brew_install protobuf
+brew_install glm
 
 brew_tap burntsushi/ripgrep
 brew_tap homebrew/services
