@@ -72,7 +72,7 @@ brew_install() {
   if [ $? -ne 0 ]
   then
     echo "$1 not installed"
-    # finstall "brew install $1" $1
+    finstall "brew install $1" $1
   else
     echoGreen "$1 already installed"
   fi
@@ -170,7 +170,8 @@ else
   ruby-install -j4 ruby 2.4.1
 fi
 
-cask_install iterm2
+# cask_install iterm2
+cask_install hyper
 
 source /usr/local/share/chruby/chruby.sh
 
